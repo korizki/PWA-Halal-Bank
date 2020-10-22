@@ -1,0 +1,32 @@
+{
+    "name": "Halal Bank",
+    "short-name": "BHalal Mobile",
+    "start_url": "index.html",
+    "scope": ".", 
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#3A1AB1",
+    "description": "Aplikasi Mobile dari Halal Bank",
+    "dir": "ltr",
+    "lang": "en-US",
+    "orientation": "portrait-primary",
+    "icons": [
+       {
+         "src": "imges/icons/app-icon-48x48.png",
+         "type": "image/jpg",
+         "size": "48x48"
+       },
+       {
+        "src": "imges/icons/app-icon-96x96.png",
+        "type": "image/jpg",
+         "size": "96x96"
+       }
+     ],
+    "prefer_related_applications": "true",
+    "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/",
+      "id": "com.example.app"
+    }]
+  }

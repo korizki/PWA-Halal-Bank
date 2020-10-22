@@ -1,0 +1,55 @@
+
+.mdl-button {
+  margin: 10px;
+}
+td{
+  padding: 5px;
+}
+.depo{
+  text-align: center;
+  margin: 0 auto;
+}
+.deposito{
+  width: 100%;
+  margin-top: 2em;
+}
+.depo-icon{
+  width: 40%
+}
+.depo-box{
+  display: flex;
+  margin: 2em 2em;
+}
+.depo-tabel{
+  text-align: left;
+  padding-top: 5%;
+}
+.tabell{
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 360px){
+  .depo{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5em;
+  }
+  .deposito h3{
+    font-size: 1.5em;
+    font-weight: 800;
+  }
+  td{
+    display: block;
+    padding: 5px;
+    
+  }
+  .depo-box{
+    display: block;
+  }
+  .depo-icon{
+    width: 100%;
+  }
+  .diem{
+    display: table-cell;
+  }
+}
